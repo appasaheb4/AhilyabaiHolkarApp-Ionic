@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   '@ionic/cli-plugin-cordova',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   '--json' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly mapToRegistry name @ionic/cli-plugin-cordova
+5 silly mapToRegistry scope (from package name) @ionic
+6 verbose mapToRegistry no registry URL found in name for scope @ionic
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry https://registry.npmjs.org/
+9 silly mapToRegistry data Result {
+9 silly mapToRegistry   raw: '@ionic/cli-plugin-cordova',
+9 silly mapToRegistry   scope: '@ionic',
+9 silly mapToRegistry   escapedName: '@ionic%2fcli-plugin-cordova',
+9 silly mapToRegistry   name: '@ionic/cli-plugin-cordova',
+9 silly mapToRegistry   rawSpec: '',
+9 silly mapToRegistry   spec: 'latest',
+9 silly mapToRegistry   type: 'tag' }
+10 silly mapToRegistry uri https://registry.npmjs.org/@ionic%2fcli-plugin-cordova
+11 verbose request uri https://registry.npmjs.org/@ionic%2fcli-plugin-cordova
+12 verbose request no auth needed
+13 info attempt registry request try #1 at 9:26:59 AM
+14 verbose request id 322185b7a2186186
+15 http request GET https://registry.npmjs.org/@ionic%2fcli-plugin-cordova
+16 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+17 info attempt registry request try #2 at 9:27:09 AM
+18 http request GET https://registry.npmjs.org/@ionic%2fcli-plugin-cordova
+19 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+20 info attempt registry request try #3 at 9:28:10 AM
+21 http request GET https://registry.npmjs.org/@ionic%2fcli-plugin-cordova
+22 verbose stack Error: getaddrinfo ENOENT registry.npmjs.org:443
+22 verbose stack     at Object.exports._errnoException (util.js:1018:11)
+22 verbose stack     at errnoException (dns.js:33:15)
+22 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+23 verbose cwd D:\Project\Ionic\ahilyabaiholkar\ahilyabaiholkar
+24 error Windows_NT 10.0.10240
+25 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view" "@ionic/cli-plugin-cordova" "dist-tags.latest" "--json"
+26 error node v6.11.0
+27 error npm  v3.10.10
+28 error code ENOENT
+29 error errno ENOENT
+30 error syscall getaddrinfo
+31 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+32 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+32 error enoent This is most likely not a problem with npm itself
+32 error enoent and is related to npm not being able to find a file.
+33 verbose exit [ 1, true ]
